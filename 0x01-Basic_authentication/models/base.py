@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" Base module
+""" Base model
 """
 from datetime import datetime
 from typing import TypeVar, List, Iterable

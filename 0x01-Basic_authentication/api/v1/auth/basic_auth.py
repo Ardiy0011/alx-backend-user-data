@@ -8,7 +8,7 @@ from typing import TypeVar
 
 
 class BasicAuth(Auth):
-    """ Basic Authentication Class """
+    """ Basic Auth Class """
 
     def extract_base64_authorization_header(self,
                                             authorization_header: str) -> str:
@@ -49,7 +49,7 @@ class BasicAuth(Auth):
                                  decoded_base64_authorization_header: str
                                  ) -> (str, str):
         """
-        Returns the user email and password from the
+        funct that Returns the user email and password from the
         Base64 decoded value
         """
 
